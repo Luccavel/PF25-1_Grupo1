@@ -1,0 +1,92 @@
+---
+# Nome do arquivo PDF gerado na pasta resultado
+output-file: "Lucca Veloso - análise 2"
+---
+
+```{r setup}
+source("rdocs/luccaveloso.R")
+```
+
+```{r}
+# Rodar apenas uma vez na vida!
+## Instalando o tinytex(pacote apenas)
+### CRAN version
+install.packages('tinytex')
+
+
+## Baixando o tinytex
+library(tinytex)
+tinytex::install_tinytex()
+```
+
+# Introdu??o
+
+O objetivo desse estudo ? explorar rela??es heterog?neas entre taxa de juros e o imposto, usando como vari?veis
+
+# An?lise Gr?fica
+
+## An?lise
+
+## An?lise
+
+```{r}
+#| label: fig-graf-disp
+#| fig-cap: "Gr?fico de dispers?o"
+
+graf_disp
+
+```
+
+
+## Regress?o
+
+Para colaborar com a an?lise, realiza-se um modelo de regress?o ultilizando a SELIC como vari?vel resposta e 
+
+::: {#quad- layout-align="center" quad-pos="H"}
+```{=latex}
+\begin{table}[H]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimativa & Erro padr?o & Valor t & P-valor \\ 
+  \hline
+Intercepto & 8,8745 & 0,3550 & 25,00 & 0,0000000000000002 \\ 
+ IPCA & -0,0104 & 0,0013 & -8,20 &  0,00000000000000189 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+```
+
+Medidas resumo da 
+:::
+
+
+
+::: {#tbl-modalidades layout-align="center" tbl-pos="H"}
+```{=latex}
+
+
+```
+
+
+:::
+
+
+
+
+$\ref{fig-}$
+
+[@tbl-]
+
+
+[**Quadro** @quad-]
+
+
+
+
+
+
+
+
+
